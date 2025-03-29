@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Category</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        var Age=parseInt(prompt("Enter the Age"));
+        var Category;
+        if(Age>=0 && Age<1){
+            Category="Infant";
+        }
+        else if(Age>=1 && Age<10){
+            Category="Child";
+        }
+        else if(Age>=10 && Age<13){
+            Category="Preteen";
+        }
+        else if(Age>=13 && Age<18){
+            Category="Teen";
+        }
+        else if(Age>=18){
+            Category="Adult";
+        }
+        else{
+            Category="Invalid";
+        }
+        alert("You are a "+Category);
+    </script>
+    
+</body>
+</html>

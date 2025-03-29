@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        let Menu_name;
+        let Menu_number=parseInt(prompt("Enter type of menu number here"));
+        switch(Menu_number){
+            case 1:
+                Menu_name="Ugali and Greens";
+                break;
+                case 2:
+                    Menu_name="Chapati and Beef";
+                    break;
+                    case 3:
+                        Menu_name="Chips and Soda";
+                        break;
+                        case 4:
+                            Menu_name="Githeri";
+                            break;
+                            default:
+                                document.write("Invalid Menu_number please");
+        }
+        document.write("The menu chosen is "+" "+ Menu_name);
+    </script>
+    
+</body>
+</html>
