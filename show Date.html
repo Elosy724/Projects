@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Today's Date</title>
+    <script>
+        function showDate() {
+            // Get today's date
+            const today = new Date();
+            // Format the date as a readable string
+            const formattedDate = today.toDateString();
+            // Display the date on the webpage
+            document.getElementById("dateDisplay").innerText = formattedDate;
+        }
+    </script>
+</head>
+<body>
+    <h2>Click the button to display today's date</h2>
+    <button onclick="showDate()">Show Date</button>
+    <p id="dateDisplay" style="font-weight: bold; color: green;"></p>
+</body>
+</html>

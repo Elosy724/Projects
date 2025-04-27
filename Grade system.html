@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        var marks=parseInt(prompt("Enter marks"));
+        var grade;
+        if(marks>=0 && marks<40){
+            grade="F";
+        }
+        else if(marks>=40 && marks<50){
+            grade="D";
+        }
+        else if(marks>=50 && marks<60){
+            grade="C";
+        }
+        else if(marks>=60 && marks<70){
+            grade="B";
+        }
+        else if(marks>=70){
+            grade="A";
+        }
+        else{
+            grade="invalid grade";
+        }
+        alert("your grade is"+" "+grade);
+        
+    </script>
+</body>
+</html>
